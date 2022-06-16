@@ -1,0 +1,16 @@
+#@TYPE: Machine
+#@NAME: e3hd
+#@DESCRIPTION: Machine configuration for the e3hd
+
+MKUBIFS_ARGS = "-m 2048 -e 126976 -c 4096"
+UBINIZE_ARGS = "-m 2048 -p 128KiB"
+
+DEFAULTTUNE = "mips32el-nf"
+
+MACHINE_FEATURES += " videoenhancement singlecore no-cl-svr blindscan-tbs RCA"
+DISTRO_FEATURES_remove = "x11 wayland directfb"
+
+CHIPSET = "bcm7358"
+RCNAME = "e3hd"
+
+require conf/machine/include/odin-oem.inc

@@ -1,0 +1,14 @@
+#@TYPE: Machine
+#@NAME: geniuse3hd
+#@DESCRIPTION: Machine configuration for the geniuse3hd
+
+SOC_FAMILY = "bcm7358"
+
+RCTYPE = "504"
+RCNAME = "e3hd"
+
+PREFERRED_VERSION_linux-odin = "3.18.24"
+
+MACHINE_FEATURES += " videoenhancement singlecore no-cl-svr blindscan-tbs RCA"
+
+require conf/machine/include/odin-oem-1.inc
