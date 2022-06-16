@@ -72,6 +72,7 @@ BBLAYERS ?= \
 	$(CURDIR)/meta-axasuhd \
 	$(CURDIR)/meta-maxytec \
 	$(CURDIR)/meta-octagon \
+	$(CURDIR)/meta-odin \
 	$(CURDIR)/meta-uclan \
 	$(CURDIR)/meta-abcom \
 	$(CURDIR)/meta-qt5
