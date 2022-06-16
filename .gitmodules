@@ -69,7 +69,7 @@
 	url = https://github.com/kueken/meta-octagon
 [submodule "meta-odin"]
 	path = meta-odin
-	url = https://github.com/builder08/meta-odin
+	url = https://github.com/builder08/meta-odin.git
 [submodule "meta-xp"]
 	path = meta-xp
 	url = https://github.com/kueken/meta-xp
